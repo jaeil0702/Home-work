@@ -1,0 +1,11 @@
+// 정수 1개 입력받아 그대로 출력하기2
+#include <stdio.h>
+
+int main()
+{
+    unsigned int a; // unsigned는 자료형 앞에 붙여 부호를 사용하지 않고 양수의 값을 두배 더 사용할 수 있음
+
+    scanf("%u", &a);
+    printf("%u", a);
+    return 0;
+}
