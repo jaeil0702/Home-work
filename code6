@@ -1,0 +1,8 @@
+// 출력하기 06
+#include <stdio.h>
+
+int main()
+{
+    printf("\"!@#$%^&*()\""); // 기호를 사용할땐 백슬래쉬 사용
+    return 0;
+}
