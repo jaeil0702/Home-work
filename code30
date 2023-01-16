@@ -1,0 +1,12 @@
+// 30. 10진 정수 입력받아 16진수로 출력하기
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("10진 정수를 입력하시오.\n");
+
+    scanf("%d", &a);
+    printf("16진 정수 값 => %x", a); // 16진수 : %x
+    return 0;
+}
