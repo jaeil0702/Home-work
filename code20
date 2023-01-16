@@ -1,0 +1,11 @@
+// 문장 1개 입력받아 그대로 출력하기
+#include <stdio.h>
+
+int main()
+{
+    char a[100];
+    //scanf("%s", &a); 이렇게 작성했다가 첫 번째 단어만 나왔음
+    fgets(a, 99, stdin); // 하나의 라인 자체를 입력 받기 때문에 fgets를 사용
+    printf("%s", a);
+    return 0;
+}
