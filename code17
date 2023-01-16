@@ -1,0 +1,13 @@
+// 연월일 입력받아 그대로 출력하기
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b;
+    int c;
+
+    scanf("%d.%d.%d", &a, &b, &c);
+    printf("%04d.%02d.%02d", a, b, c); // %xx로 출력 될 문자의 개수를 정하기
+    return 0;
+}
