@@ -1,0 +1,12 @@
+// 33. 16진 정수 1개 입력받아 8진수로 출력하기
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("16진 정수 값을 입력하시오.\n");
+
+    scanf("%x", &a);
+    printf("8진 정수의 값 => %o", a);
+    return 0;
+}
