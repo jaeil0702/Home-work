@@ -1,0 +1,8 @@
+// 출력하기 05
+#include <stdio.h>
+
+int main()
+{
+    printf("\"Hello World\""); // 기호를 출력할땐 백슬래쉬를 사용
+    return 0;
+}
