@@ -1,0 +1,31 @@
+// 단어 1개 입력받아 나누어 출력하기
+/*
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    char b;
+    char c;
+
+    scanf("%c", &a);
+    printf("'%c'\n'%c'\n'%c'", a, b, c);
+    return 0;
+}
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    char a[21];
+
+    scanf("%s", &a);
+    for(i=0; i<21; i++) // 0부터 21까지 1씩 증가
+    {
+        if(a[i] == '\0')break; // \0(NULL)을 만나면 break(탈출)한다
+        printf("\'%c\'\n", a[i]);
+    }
+    return 0;
+}
