@@ -1,0 +1,10 @@
+// 10진 정수 입력받아 16진수로 출력하기2
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%X", a); // %x를 대문자로 %X로 바꾸면 출력값도 대문자로 나옴
+    return 0;
+}
