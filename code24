@@ -1,0 +1,11 @@
+// 시분초 입력받아 분만 출력하기
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+
+    scanf("%d:%d:%d", &a, &b, &c);
+    printf("%d", b);
+    return 0;
+}
