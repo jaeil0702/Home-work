@@ -1,0 +1,11 @@
+// 실수 1개 입력받아 그대로 출력하기2
+#include <stdio.h>
+
+int main()
+{
+    double a; // float형은 주로 4bit의 단정밀도로 실수를 표현하고 double형은 주로 8bit의 배정밀도로 실수표현
+
+    scanf("%lf", &a); // float = %f, double = %lf
+    printf("%.11lf", a);
+    return 0;
+}
