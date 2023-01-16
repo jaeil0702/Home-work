@@ -1,0 +1,11 @@
+// 단어 1개 입력받아 그대로 출력하기
+#include <stdio.h>
+
+int main()
+{
+    char a[15]; // 문자를 저장하기 위해 char[xx]으로 선언
+
+    scanf("%s", &a);
+    printf("%s", a);
+    return 0;
+}
