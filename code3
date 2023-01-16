@@ -1,0 +1,8 @@
+// 출력하기 03
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello\nWorld");
+    return 0;
+}
