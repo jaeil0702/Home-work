@@ -1,0 +1,12 @@
+// 35. 정수 입력받아 아스키 문자로 출력하기
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("정수 값을 입력하시오.\n");
+
+    scanf("%d", &a);
+    printf("아스키 문자 값 => %c", a);
+    return 0;
+}
