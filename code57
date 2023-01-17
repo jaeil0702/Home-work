@@ -1,0 +1,9 @@
+// 57. 비트단위로 NOT하여 출력하기
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d", ~a);
+    return 0;
+}
