@@ -1,0 +1,18 @@
+// 정수 1개 입력받아 2배 곱해 출력하기
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d", a * 2);
+    return 0;
+}
+*/
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d", &a);
+    printf("%d", a << 1); // <<를 통해 입력값에 2배를 출력한다. >>는 반으로 감소되어 출력
+    return 0;
+}
