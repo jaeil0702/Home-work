@@ -1,0 +1,14 @@
+// 정수 3개 입력받아 가장 작은 수 출력하기
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+    printf("three num\n");
+
+    scanf("%d %d %d", &a, &b, &c);
+    // printf("%d", a > b > c ? a:b:c); 내가 생각했던 코드
+    printf("%d", (a < b ? a : b) < c ? (a < b ? a : b) : c);
+
+    return 0;
+}
