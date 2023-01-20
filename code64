@@ -1,0 +1,38 @@
+// 정수 3개 입력받아 짝홀 출력하기
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+    printf("three num\n");
+
+    scanf("%d %d %d", &a, &b, &c);
+    if(a % 2 == 0)                      // a를 2로 나누었을 때 나머지가 0이면
+    {           
+        printf("even number\n");       // even number를 출력
+    }
+    else
+    {
+        printf("odd number\n");       // a를 2로 나누었을 때 나머지가 0이 아니면 odd number 출력
+    }
+
+    if(b % 2 == 0)
+    {
+        printf("even number\n");
+    }
+    else
+    {
+        printf("odd number\n");
+    }
+
+    if(c % 2 == 0)
+    {
+        printf("even number\n");
+    }
+    else
+    {
+        printf("odd number\n");
+    }
+
+    return 0;
+}
