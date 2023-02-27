@@ -1,0 +1,16 @@
+// 짝수 합 구하기
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a, i;
+    int sum = 0;
+    scanf("%d", &a);
+    for (i = 0; i <= a; i += 2) // 입력 된 정수 값을 0부터 +2씩 증가하며 짝수 값을 합한다
+    {
+        sum += i;
+    }
+    printf("%d", sum);
+    return 0;
+}
