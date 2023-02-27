@@ -1,0 +1,17 @@
+// 0 입력될 때까지 무한 출력하기1
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a = -1;
+    {
+        while (a != 0) // a가 0이 아닐 경우 while문으로 반복
+        {
+            scanf("%d", &a);
+            if (a != 0)   // a가 0이 아닐 경우 입력 값이 출력
+                printf("%d\n", a);
+        }
+    }
+    return 0;
+}
