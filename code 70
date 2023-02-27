@@ -1,0 +1,15 @@
+// 정수 입력받아 계속 출력하기
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a, i;
+    scanf("%d", &a);
+    for (i = 1; i <= a; i++) // 정수 i에 입력 된 값이 1부터 1씩 증가
+    {
+        int j;
+        scanf("%d", &j);
+        printf("%d\n", j); // 
+    }
+    return
