@@ -1,0 +1,12 @@
+// 정수 1개 입력받아 그 수까지 출력하기
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a, i;
+    scanf("%d", &a);
+    for (i = 0; i <= a; i++) // 0부터 1씩 증가
+        printf("%d\n", i); // 입력받은 정수를 위에 조건문에 맞게 출력
+    return 0;
+}
