@@ -1,0 +1,18 @@
+// 언제까지 더해야 할까
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a, i;
+    int sum = 0;
+    scanf("%d", &a);
+    for (i = 1;; i++)   // i가 1부터 1씩 증가하며 
+    {
+        sum += i;
+        if (sum >= a)   // sum값이 a보다 크거나 같아지면 반복문 탈출
+            break;
+    }
+    printf("%d", i);
+    return 0;
+}
