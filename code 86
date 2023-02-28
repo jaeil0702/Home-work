@@ -1,0 +1,14 @@
+// 3의 배수는 통과
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a, i;
+    scanf("%d", &a);
+    for (i = 0; i <= a; i++)    // 1씩 증가
+    {
+        if (i % 3 != 0)         // 3으로 나눠지는 수는 출력하지 
+            printf("%d ", i);
+    }
+}
