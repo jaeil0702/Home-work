@@ -1,0 +1,11 @@
+// 소리 파일 저장용량 계산하기
+
+#include <stdio.h>
+
+int main(void)
+{
+    int h, b, c, s;
+    scanf("%d %d %d %d", &h, &b, &c, &s);
+    printf("%.1lf MB", ((double)h * b * c * s) / 8 / 1024 / 1024);  // 소수점 1자리까지 출력
+    return 0;
+}
