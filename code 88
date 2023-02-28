@@ -1,0 +1,14 @@
+// 수 나열하기 2
+
+#include <stdio.h>
+
+int main(void)
+{
+    long long int a, r, n, i;   // int형의 범위 값을 넘어서서 long long int 사용
+    scanf("%lld %lld %lld", &a, &r, &n);
+    for (i = 1; i < n; i++)
+    {
+        a = a * r;
+    }
+    printf("%lld", a);
+}
