@@ -1,0 +1,12 @@
+// 수 나열하기3
+
+#include <stdio.h>
+
+int main(void)
+{
+    long long int a, m, d, n, i;
+    scanf("%lld %lld %lld %lld", &a, &m, &d, &n);
+    for (i = 1; i < n; i++)
+        a = a * m + d;
+    printf("%lld", a);
+}
